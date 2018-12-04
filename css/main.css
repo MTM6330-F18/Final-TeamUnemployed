@@ -1,0 +1,13 @@
+.header {
+  text-align: center; }
+
+.container > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 50%; }
