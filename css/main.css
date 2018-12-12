@@ -94,6 +94,20 @@ body {
   font-family: titlefont;
   }
 
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+  left: 16px;
+  font-family: titlefont;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+  }
+
   .centered, title {
     font-size: 8rem;
   }
@@ -119,9 +133,7 @@ body {
     color: #000;
   }
 
-  container coursegrid {
-
-  }
+  
 
 @media screen and (min-width: 35rem) {
   nav ul li a {
@@ -146,6 +158,11 @@ body {
   margin: 1%;
   flex: 33.33%;
   padding: 5px; }
+
+  .main, .prof {
+flex: 25%;
+margin: 10%;
+  }
 
   .main, .coursegrid {
     padding: 2px 16px;
